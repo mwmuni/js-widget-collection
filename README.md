@@ -30,7 +30,7 @@
 
 ## Live Demo
 
-[View the Live Demo](http://the-live-demo-link.com)
+[View the Live Demo](https://mwmuni.github.io/js-widget-collection/)
 
 ## Installation
 
