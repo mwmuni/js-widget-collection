@@ -32,6 +32,8 @@
 
 [View the Live Demo](https://mwmuni.github.io/js-widget-collection/)
 
+![image](https://github.com/user-attachments/assets/432a0ff7-6596-4c9f-b627-eb6af729d848)
+
 ## Installation
 
 To get started with Scratchpad locally, follow these steps:
