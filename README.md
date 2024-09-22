@@ -1,0 +1,2 @@
+# scratchpad
+A JavaScript project

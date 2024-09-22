@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Javascript widget collection</title>
+  <link rel="stylesheet" href="/style.e308ff8e.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+  <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
+  <script src="/main.1f19ae8e.js" defer=""></script>
+  <script src="/loadingCircles.9acfa758.js" defer=""></script>
+  <script src="/circularProgress.f292f6d0.js" defer=""></script>
+  <script src="/threeDBar.34dcda52.js" defer=""></script>
+
+  <!-- Prism CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+
+  <!-- Prism JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+<script src="/style.e308ff8e.js"></script></head>
+<body>
+  <h1>Javascript widget collection</h1>
+  <div id="card-container">
+    <div id="time-counter"></div>
+  </div>
+  <div class="gallery-container">
+    <button class="nav left" id="scroll-left">&#10094;</button>
+    
+    <div class="gallery">
+      <div class="card-container">
+        <h2>Loading Circles</h2>
+        <div class="card-container-inner">
+          <hr>
+          <canvas id="loadingCirclesCanvas" width="300" height="300"></canvas>
+          <hr>
+        </div>
+        <p>This is a demo of loading circles</p>
+        
+        <!-- Show Code Button -->
+        <!-- <button class="show-code-btn" data-code="./dist/src/loadingCircles.js">Show Code</button> -->
+      </div>
+      
+      <div class="card-container">
+        <h2>Circular Progress Circles</h2>
+        <div class="card-container-inner">
+          <hr>
+          <canvas id="circularProgressCanvas" width="300" height="300"></canvas>
+          <hr>
+        </div>
+        <p>This is a demo of circular progress circles</p>
+        
+        <!-- Show Code Button -->
+        <!-- <button class="show-code-btn" data-code="circularProgress.js">Show Code</button> -->
+      </div>
+      
+      <div class="card-container">
+        <h2>3D Circles</h2>
+        <div class="card-container-inner">
+          <hr>
+          <canvas id="threeDBarCanvas" width="300" height="300"></canvas>
+          <hr>
+        </div>
+        <p>This is a demo of a 3D bar using circles</p>
+        
+        <!-- Show Code Button -->
+        <!-- <button class="show-code-btn" data-code="threeDBar.js">Show Code</button> -->
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+    
+    <button class="nav right" id="scroll-right">&#10095;</button>
+  </div>
+
+  <!-- Code Display Modal -->
+  <div id="codeModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <pre><code id="modalCode" class="language-javascript"></code></pre>
+    </div>
+  </div>
+</body>
+</html>
